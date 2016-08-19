@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6301617C1D66CA5000752569 /* testModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6301617B1D66CA5000752569 /* testModel.m */; };
 		631C6C351D65AF8200F4C255 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 631C6C341D65AF8200F4C255 /* main.m */; };
 		631C6C381D65AF8200F4C255 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 631C6C371D65AF8200F4C255 /* AppDelegate.m */; };
 		631C6C3B1D65AF8200F4C255 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 631C6C3A1D65AF8200F4C255 /* ViewController.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6301617A1D66CA5000752569 /* testModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testModel.h; sourceTree = "<group>"; };
+		6301617B1D66CA5000752569 /* testModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testModel.m; sourceTree = "<group>"; };
 		631C6C301D65AF8200F4C255 /* MyOffice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyOffice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		631C6C341D65AF8200F4C255 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		631C6C361D65AF8200F4C255 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -62,6 +65,8 @@
 				631C6C371D65AF8200F4C255 /* AppDelegate.m */,
 				631C6C391D65AF8200F4C255 /* ViewController.h */,
 				631C6C3A1D65AF8200F4C255 /* ViewController.m */,
+				6301617A1D66CA5000752569 /* testModel.h */,
+				6301617B1D66CA5000752569 /* testModel.m */,
 				631C6C3C1D65AF8200F4C255 /* Main.storyboard */,
 				631C6C3F1D65AF8200F4C255 /* Assets.xcassets */,
 				631C6C411D65AF8200F4C255 /* LaunchScreen.storyboard */,
@@ -152,6 +157,7 @@
 				631C6C3B1D65AF8200F4C255 /* ViewController.m in Sources */,
 				631C6C381D65AF8200F4C255 /* AppDelegate.m in Sources */,
 				631C6C351D65AF8200F4C255 /* main.m in Sources */,
+				6301617C1D66CA5000752569 /* testModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +306,7 @@
 				631C6C491D65AF8200F4C255 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
