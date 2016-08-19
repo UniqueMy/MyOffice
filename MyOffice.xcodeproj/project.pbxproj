@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		18C3C9F01D65F643008C1A57 /* ChenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C3C9EF1D65F643008C1A57 /* ChenViewController.m */; };
+		18C3C9F31D66A0F4008C1A57 /* WanliDetePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C3C9F21D66A0F4008C1A57 /* WanliDetePicker.m */; };
 		631C6C351D65AF8200F4C255 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 631C6C341D65AF8200F4C255 /* main.m */; };
 		631C6C381D65AF8200F4C255 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 631C6C371D65AF8200F4C255 /* AppDelegate.m */; };
 		631C6C3B1D65AF8200F4C255 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 631C6C3A1D65AF8200F4C255 /* ViewController.m */; };
@@ -19,6 +20,8 @@
 /* Begin PBXFileReference section */
 		18C3C9EE1D65F643008C1A57 /* ChenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChenViewController.h; sourceTree = "<group>"; };
 		18C3C9EF1D65F643008C1A57 /* ChenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChenViewController.m; sourceTree = "<group>"; };
+		18C3C9F11D66A0F4008C1A57 /* WanliDetePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WanliDetePicker.h; sourceTree = "<group>"; };
+		18C3C9F21D66A0F4008C1A57 /* WanliDetePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WanliDetePicker.m; sourceTree = "<group>"; };
 		631C6C301D65AF8200F4C255 /* MyOffice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyOffice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		631C6C341D65AF8200F4C255 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		631C6C361D65AF8200F4C255 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -67,6 +70,8 @@
 				631C6C3A1D65AF8200F4C255 /* ViewController.m */,
 				18C3C9EE1D65F643008C1A57 /* ChenViewController.h */,
 				18C3C9EF1D65F643008C1A57 /* ChenViewController.m */,
+				18C3C9F11D66A0F4008C1A57 /* WanliDetePicker.h */,
+				18C3C9F21D66A0F4008C1A57 /* WanliDetePicker.m */,
 				631C6C3C1D65AF8200F4C255 /* Main.storyboard */,
 				631C6C3F1D65AF8200F4C255 /* Assets.xcassets */,
 				631C6C411D65AF8200F4C255 /* LaunchScreen.storyboard */,
@@ -156,6 +161,7 @@
 			files = (
 				18C3C9F01D65F643008C1A57 /* ChenViewController.m in Sources */,
 				631C6C3B1D65AF8200F4C255 /* ViewController.m in Sources */,
+				18C3C9F31D66A0F4008C1A57 /* WanliDetePicker.m in Sources */,
 				631C6C381D65AF8200F4C255 /* AppDelegate.m in Sources */,
 				631C6C351D65AF8200F4C255 /* main.m in Sources */,
 			);

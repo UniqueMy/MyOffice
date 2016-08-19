@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "WanliDetePicker.h"
 @interface ViewController ()
 
 @end
@@ -20,6 +20,17 @@
     // 建立第一个项目库
     // 盛浩test上传
     // 最后一次测试
+
+
+    WanliDetePicker *datePicker = [[WanliDetePicker alloc]initWithFrame:CGRectMake(20, 100, 300, 200)];
+
+    datePicker.datePickerMode = UIDatePickerModeDateAndTime;
+
+    datePicker.minuteInterval = 5;
+
+    [self.view addSubview:datePicker];
+
+    NSLog(@"------%@",datePicker.subviews);
 }
 
 - (void)didReceiveMemoryWarning {
