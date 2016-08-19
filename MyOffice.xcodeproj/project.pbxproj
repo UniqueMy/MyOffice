@@ -7,12 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-<<<<<<< HEAD
 		18C3C9F01D65F643008C1A57 /* ChenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C3C9EF1D65F643008C1A57 /* ChenViewController.m */; };
 		18C3C9F31D66A0F4008C1A57 /* WanliDetePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C3C9F21D66A0F4008C1A57 /* WanliDetePicker.m */; };
-=======
+		18C3C9F51D67125A008C1A57 /* libopencore-amrnb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C3C9F41D67125A008C1A57 /* libopencore-amrnb.a */; };
 		6301617C1D66CA5000752569 /* testModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6301617B1D66CA5000752569 /* testModel.m */; };
->>>>>>> f65456b191a67d05fccb59e27b91c7771031a04f
 		631C6C351D65AF8200F4C255 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 631C6C341D65AF8200F4C255 /* main.m */; };
 		631C6C381D65AF8200F4C255 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 631C6C371D65AF8200F4C255 /* AppDelegate.m */; };
 		631C6C3B1D65AF8200F4C255 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 631C6C3A1D65AF8200F4C255 /* ViewController.m */; };
@@ -22,15 +20,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-<<<<<<< HEAD
 		18C3C9EE1D65F643008C1A57 /* ChenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChenViewController.h; sourceTree = "<group>"; };
 		18C3C9EF1D65F643008C1A57 /* ChenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChenViewController.m; sourceTree = "<group>"; };
 		18C3C9F11D66A0F4008C1A57 /* WanliDetePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WanliDetePicker.h; sourceTree = "<group>"; };
 		18C3C9F21D66A0F4008C1A57 /* WanliDetePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WanliDetePicker.m; sourceTree = "<group>"; };
-=======
+		18C3C9F41D67125A008C1A57 /* libopencore-amrnb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrnb.a"; sourceTree = "<group>"; };
 		6301617A1D66CA5000752569 /* testModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testModel.h; sourceTree = "<group>"; };
 		6301617B1D66CA5000752569 /* testModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testModel.m; sourceTree = "<group>"; };
->>>>>>> f65456b191a67d05fccb59e27b91c7771031a04f
 		631C6C301D65AF8200F4C255 /* MyOffice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyOffice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		631C6C341D65AF8200F4C255 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		631C6C361D65AF8200F4C255 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -48,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18C3C9F51D67125A008C1A57 /* libopencore-amrnb.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,19 +70,17 @@
 		631C6C321D65AF8200F4C255 /* MyOffice */ = {
 			isa = PBXGroup;
 			children = (
+				18C3C9F41D67125A008C1A57 /* libopencore-amrnb.a */,
 				631C6C361D65AF8200F4C255 /* AppDelegate.h */,
 				631C6C371D65AF8200F4C255 /* AppDelegate.m */,
 				631C6C391D65AF8200F4C255 /* ViewController.h */,
 				631C6C3A1D65AF8200F4C255 /* ViewController.m */,
-<<<<<<< HEAD
 				18C3C9EE1D65F643008C1A57 /* ChenViewController.h */,
 				18C3C9EF1D65F643008C1A57 /* ChenViewController.m */,
 				18C3C9F11D66A0F4008C1A57 /* WanliDetePicker.h */,
 				18C3C9F21D66A0F4008C1A57 /* WanliDetePicker.m */,
-=======
 				6301617A1D66CA5000752569 /* testModel.h */,
 				6301617B1D66CA5000752569 /* testModel.m */,
->>>>>>> f65456b191a67d05fccb59e27b91c7771031a04f
 				631C6C3C1D65AF8200F4C255 /* Main.storyboard */,
 				631C6C3F1D65AF8200F4C255 /* Assets.xcassets */,
 				631C6C411D65AF8200F4C255 /* LaunchScreen.storyboard */,
@@ -292,6 +287,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MyOffice/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MyOffice",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.guodong.MyOffice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -303,6 +302,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MyOffice/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MyOffice",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.guodong.MyOffice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
